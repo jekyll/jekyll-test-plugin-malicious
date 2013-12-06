@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = JekyllTestPluginMalicious::VERSION
   spec.authors       = ["Parker Moore"]
   spec.email         = ["parkrmoore@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{A malicious gem for Jekyll (for testing)}
+  spec.summary       = %q{A malicious gem for Jekyll (for testing)}
+  spec.homepage      = "https://github.com/jekyll/jekyll-test-plugin-malicious"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "jekyll"
 end
