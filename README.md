@@ -1,6 +1,6 @@
 # JekyllTestPluginMalicious
 
-TODO: Write a gem description
+A malicious gem for Jekyll (for testing)
 
 ## Installation
 
